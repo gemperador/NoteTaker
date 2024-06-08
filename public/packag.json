@@ -1,14 +1,32 @@
 {
-    "name": "note-taker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.16.4"
-    }
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "A simple note-taking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uniqid": "^5.4.0",
+    "util": "^0.12.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.heroku.com/note-taker-emper.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gemperador/NoteTaker/issues"
+  },
+  "homepage": "https://github.com/gemperador/NoteTaker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
+}
